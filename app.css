@@ -1,0 +1,57 @@
+.canvas {
+    z-index: 1;
+    position: absolute;
+    pointer-events: none;
+    background-color: black;
+
+    padding-bottom: 60px;
+
+  }
+  
+.output_canvas {
+transform: rotateY(180deg);
+-webkit-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+}
+
+video {
+    clear: both;
+    display: block;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    max-height: 100vh;
+    min-height: 60vh;
+    padding-left: 100;
+    padding-right: 100;
+    border: solid;
+    border-color: aliceblue;
+    margin-left: 300;
+    margin-right: 200;
+    margin-bottom: 40px;
+
+  }
+
+body{
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+
+    background-color: #231d3e;
+    background-image: linear-gradient(45deg, #020302 0%, #130c13 100%);
+
+    text-align: center;
+    align-items: center;
+
+    border: rgb(228, 193, 248);
+    border-radius: 3px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size:xx-large;
+    font-family: cursive;
+    color: rgb(228, 193, 248);
+}
